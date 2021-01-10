@@ -37,7 +37,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
     }
   }
 
-  var youtube_api = "AIzaSyD7_527NgzgOBkOytA6LrVyFlm_ySQOyEI";
+  var youtube_api = "your_youtube_api_key";
   //poster base url
   var image_baseurl = "http://image.tmdb.org/t/p/w92//";
 
@@ -45,7 +45,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
 
   final url = "https://api.themoviedb.org/3/movie/";
   final url_end =
-      "?api_key=897a1f013542be95c6fd47b321604faa&append_to_response=videos,images,credits,similar,reviews";
+      "?api_key=your_api_key&append_to_response=videos,images,credits,similar,reviews";
 
   Movie movie;
 

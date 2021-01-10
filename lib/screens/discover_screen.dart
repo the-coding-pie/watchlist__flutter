@@ -11,12 +11,12 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   
 
   //base url
-  var upcoming_url = "https://api.themoviedb.org/3/movie/upcoming?api_key=897a1f013542be95c6fd47b321604faa";
-  var trending_url = "https://api.themoviedb.org/3/trending/movie/day?api_key=897a1f013542be95c6fd47b321604faa";
-  var toprated_url = "http://api.themoviedb.org/3/movie/top_rated?api_key=897a1f013542be95c6fd47b321604faa";
-  var topMoviesOf2019 = "http://api.themoviedb.org/3/discover/movie?api_key=897a1f013542be95c6fd47b321604faa&sort_by=popularity.desc&year=2019";
+  var upcoming_url = "https://api.themoviedb.org/3/movie/upcoming?api_key=your_api_key";
+  var trending_url = "https://api.themoviedb.org/3/trending/movie/day?api_key=your_api_key";
+  var toprated_url = "http://api.themoviedb.org/3/movie/top_rated?api_key=your_api_key";
+  var topMoviesOf2019 = "http://api.themoviedb.org/3/discover/movie?api_key=your_api_key&sort_by=popularity.desc&year=2019";
 
-    var topMoviesOf2018 = "http://api.themoviedb.org/3/discover/movie?api_key=897a1f013542be95c6fd47b321604faa&sort_by=popularity.desc&year=2018";
+    var topMoviesOf2018 = "http://api.themoviedb.org/3/discover/movie?api_key=your_api_key&sort_by=popularity.desc&year=2018";
 
   @override
   void initState() {

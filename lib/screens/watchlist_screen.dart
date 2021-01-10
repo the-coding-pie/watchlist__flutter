@@ -59,7 +59,7 @@ class _WatchListScreen extends State<WatchListScreen> {
 
   Future<List<Movie>> searchMovies(value) async {
     Response response = await get(
-        "https://api.themoviedb.org/3/search/movie?api_key=897a1f013542be95c6fd47b321604faa&query=$value");
+        "https://api.themoviedb.org/3/search/movie?api_key=your_api_key&query=$value");
 
     Map data = jsonDecode(response.body);
 
